@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Módulo 13</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="carousel slide" id="slides" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/mulher-segurando-pesos-perto-de-halteres_651396-1617.jpg?w=1380&t=st=1676586855~exp=1676587455~hmac=7292b1136405ffb620e03fb37cdba5008fec54a9077b09cbf1e85fee9f6c01e3" style="height:500px;">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/mulher-loira-atletica-em-roupas-esportivas-fazendo-exercicio-na-maquina-de-prensa-de-pernas-em-uma-academia_613910-21244.jpg?w=1380&t=st=1676586855~exp=1676587455~hmac=2e5124979d867cf0385fcad98ccbe951d474ce2f843a993c3b01100d58ee90b8" style="height:500px;">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/mulher-jovem-e-bonita-desportiva-a-treinar-no-ginasio_155003-41224.jpg?w=1380&t=st=1676587082~exp=1676587682~hmac=472d2a406dfcb3a8e7cf5475aab4b18895a9ab9818f89d9f2e19338f3266257b" style="height:500px;">
+            </div>
+            <button type="button" data-bs-target="#slides" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-target="#slides" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="2"></button>
+        </div>
+
+    </div>
+
+    
+
+    <div class="container">
+        <div class="row" style="padding:30px;">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="margin-top:10px">
+                    <div class="card-header" style="background-color: #d3d3d3;">
+                        <h4 style="text-align: center;">Plano Iniciante</h2>
+                    </div>
+                    <div class="card-body" style="background-color: #d3d3d3;">
+                        <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/musica-linda-jovem-garota-esportiva-sobre-parede-escura_176420-660.jpg?w=1380&t=st=1676589320~exp=1676589920~hmac=53577b0b2eb9ac5ffcba6d2697d2ae65d4fa5400e491e25700795e3f562c51d5" style="height:240px; border-radius: 10px;">
+                        <p class="card-text"><br />
+                            <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                            Plano de Treino
+                        </p>
+                        <p style="color:#999999; text-decoration: line-through;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                            Plano de Correção Postural
+                        </p>
+                        <p style="color:#999999; text-decoration: line-through;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                            Dieta*
+                            <footer class="blockquote-footer"><cite>*feito por nutricionista da equipe</cite></footer>
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                            Acesso ao APP
+                            <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                        </p>
+                        <p style="color:#999999; text-decoration: line-through;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                            Dúvidas pelo Whatsapp
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                            Dúvidas por E-mail
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: #d3d3d3;">
+                        <p style="text-align: center;">R$150,00</p>
+                        <button style="width: 100%" type="button" class="btn btn-dark">Estou começando!</button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="margin-top:10px">
+                    <div class="card-header" style="background-color: #d3d3d3;">
+                        <h4 style="text-align: center;">Plano Intermediário</h4>
+                    </div>
+                    <div class="card-body" style="background-color: #d3d3d3;">
+                        <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/musica-linda-jovem-garota-esportiva-sobre-parede-escura_176420-667.jpg?w=740&t=st=1676661430~exp=1676662030~hmac=6dad2aa1d76b6622d602ab218d05e6da8c68d20024b87a8db2ca5da000dfe793" style="height:240px;  border-radius: 10px;">
+                        <p class="card-text"><br />
+                            <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                            Plano de Treino
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                            Plano de Correção Postural
+                        </p>
+                        <p style="color:#999999; text-decoration: line-through;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                            Dieta*
+                            <footer class="blockquote-footer"><cite>*feito por nutricionista da equipe</cite></footer>
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                            Acesso ao APP
+                            <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                        </p>
+                        <p style="color:#999999; text-decoration: line-through;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                            Dúvidas pelo Whatsapp
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                            Dúvidas por E-mail
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: #d3d3d3;">
+                        <p style="text-align: center;">R$250,00</p>
+                        <button style="width: 100%" type="button" class="btn btn-dark">Estou desenvolvendo!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="margin-top:10px;">
+                    <div class="card-header" style="background-color:#d3d3d3">
+                        <h4 style="text-align: center;">Plano Avançado</h4>
+                    </div>
+                    <div class="card-body" style="background-color: #d3d3d3">
+                        <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/linda-garota-esportiva-posando-com-os-bracos-cruzados-sobre-parede-escura_176420-623.jpg?w=740&t=st=1676661431~exp=1676662031~hmac=73b7bdc84f4918452cfa7804657f6e690e6d3e779702906c33d26e3e4bcdee37" style="height:240px;  border-radius: 10px;">
+                        <p class="card-text"><br />
+                            <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                            Plano de treino
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                            Plano de Correção Postural
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                            Dieta*
+                            <footer class="blockquote-footer"><cite>feito por nutricionista da equipe</cite></footer>
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                            Acesso ao APP
+                            <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                            Dúvidas pelo Whatsapp
+                        </p>
+                        <p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                            Dúvidas por E-mail
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: #d3d3d3">
+                        <p style="text-align: center;">R$350,00</p>
+                        <button style="width: 100%" type="button" class="btn btn-dark">Otimização 100%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
